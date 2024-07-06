@@ -1,0 +1,79 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: "Playwrite DE Grund", cursive; */
+
+    margin: 1px;
+    padding: 1px;}
+header{
+    align-items: center;
+    background-color: rgb(100, 18, 18);
+    justify-content:space-between ;
+    display: flex;
+    padding: 10px;
+    color: white;
+    
+}
+main{
+    margin: o auto;
+}
+.logo{
+    font-family:cursive;
+    font-size: larger;      
+}
+.logo img{
+    vertical-align: middle;
+}
+.search input {
+    padding: 5px;
+    width: 400px;
+    border-radius: 10px;
+    
+    
+}
+.search button{
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0px -10px; 
+    /* border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; */
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+.poster{
+    overflow: hidden;
+    
+    margin-top: 1px;
+    align-items: center;
+}
+.poster img{
+    width:100%;
+}
+.content{
+    padding: 20px;
+}
+.product{
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.product p img{
+    vertical-align: middle;
+}
+
+.product img{
+    border: 1px solid lightgray; border-radius: 10px;
+    width: 100%;
+}
+footer{
+    background-color: rgb(100, 18, 18);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
